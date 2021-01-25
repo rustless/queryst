@@ -3,7 +3,7 @@ extern crate serde_json;
 
 #[cfg(feature = "regex1")]
 extern crate regex;
-extern crate url;
+extern crate percent_encoding;
 
 #[cfg(feature = "regex1")]
 #[macro_use]

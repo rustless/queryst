@@ -1,7 +1,7 @@
 #[cfg(feature = "regex1")]
 use regex::Regex;
 use serde_json::{Value, Map, Number};
-use url::percent_encoding::percent_decode;
+use percent_encoding::percent_decode;
 
 use merge::merge;
 use helpers::{create_array, push_item_to_array};
